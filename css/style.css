@@ -13,4 +13,66 @@ html {
 body {
   line-height: 1.6;
   font-weight: 400;
-  color: #000; }
+  color: #000;
+  background-color: #f5f6fa; }
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.box {
+  min-height: 50rem;
+  width: 40rem;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.5), -8px -8px 14px rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .box input {
+    display: block;
+    padding: 2rem 5rem;
+    outline: none;
+    border: none;
+    background-color: #f5f6fa;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: inset -10px -10px 8px rgba(255, 255, 255, 0.6), inset 5px 5px 8px rgba(0, 0, 0, 0.5); }
+    .box input:not(:last-child) {
+      margin-bottom: 6rem; }
+
+.logo {
+  height: 6rem;
+  border-radius: 50%;
+  margin: 3rem;
+  margin-bottom: 8rem;
+  box-shadow: 8px 3px 10px #ced6e0, -8px -3px 10px #dfe4ea; }
+
+.form {
+  width: 90%;
+  text-align: center; }
+
+.btn {
+  display: inline-block;
+  padding: 2rem 5rem;
+  text-align: center;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  background-color: #01a3a4;
+  color: white;
+  font-size: 1.3rem;
+  box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.2), -8px -8px 9px #ffffff;
+  transition: all 0.5s;
+  margin-bottom: 5rem; }
+  .btn:hover {
+    background-color: #ffa502; }
+  .btn:active {
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.2), -2px -2px 9px #ffffff; }
+
+.heading-3 {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 300; }
